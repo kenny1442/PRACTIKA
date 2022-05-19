@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Comfortaa:wght@502&family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap');
 .header {
     width: 100%;
     background: rgb(255, 255, 255);
@@ -7,14 +8,33 @@
     -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
+.header__logo-wrapper{
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header__logo-text{
+    display: inline;
+    padding: 0px 0px 15px 10px;
+    font-family: 'Bebas Neue', cursive;
+}
 
 .header__logo-title {
     font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+
+.header__logo-description{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 502px;
+    font-size: 18px;
 }
 
 .header__inner {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -45,29 +65,24 @@
     overflow: hidden;
 }
 
-.header__callback-button {
-    background-color: Transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-}
+
 
 .kartinka {
-    height: 55px;
+    height: 65px;
 }
 
 .header__contents {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .header__callback-button {
-    border-radius: 25px;
-    background-color: aquamarine;
-    height: 50px;
-    padding: 0px 30px 0px 30px
+    border-radius: 45px;
+    background-color: rgb(103, 179, 230);
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
 }
 
 .header__logo-wrapper {
