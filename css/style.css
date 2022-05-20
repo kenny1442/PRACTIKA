@@ -1,5 +1,11 @@
+                                                            /* ШАПКА САЙТА */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Comfortaa:wght@502&family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap');
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
 .header {
     width: 100%;
     background: rgb(255, 255, 255);
@@ -34,7 +40,7 @@
 
 .header__inner {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -54,7 +60,7 @@
 }
 
 .contayner {
-    margin: 0px 20px 0px 20px;
+    margin: 0px;
 }
 
 .header__nav-button {
@@ -92,3 +98,29 @@
 .header__logo {
     width: 130px;
 }
+
+                                                            /* МЕIN ЧАСТЬ */
+.main_conteyner{
+    margin: 0 auto;
+    max-width: 1500px;
+    max-height: 1000px;
+    font-family: 'Comfortaa', cursive;
+    
+    color: rgb(133, 127, 127)
+    outline: 7px solid rgb(87, 81, 97);
+    outline-offset: 5px;
+
+}
+.main__text_zagolovok{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.main__text{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
