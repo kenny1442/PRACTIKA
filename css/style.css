@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6{
     max-height: 1000px;
     font-family: 'Comfortaa', cursive;
     
-    color: rgb(133, 127, 127)
+    color: rgb(133, 127, 127);
     outline: 7px solid rgb(87, 81, 97);
     outline-offset: 5px;
 
